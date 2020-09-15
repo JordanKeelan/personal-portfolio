@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Poiret+One&family=Press+Start+2P&family=Raleway+Dots&display=swap");
+
+body {
+  background-color: #b1a296;
+}
+.navbar {
+  background-color: #5d5c61;
+  padding: 0;
+  height: 60px;
+}
+.navbar-toggler {
+  background-color: #8ee4af;
+  margin: 0px;
+  height: 100%;
+  transform: skew(-30deg);
+  -webkit-transform: skew(-30deg);
+  border-radius: 0;
+  width: 50vw;
+}
+#logo {
+  height: 40px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  -webkit-transform: skew(30deg);
+  transform: skew(30deg);
+}
+.nav-item {
+  text-align: center;
+}
+.nav-link {
+  width: 50vw;
+  height: 60px;
+  margin: 0 auto;
+}
+.nav-link:hover {
+  text-decoration: none;
+}
+.navbar-nav a,
+a:hover,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+.navbar-nav a:active,
+a:hover {
+  color: #8ee4af;
+}
+
+.about-button {
+  color: #343336;
+  background-color: #7395ae;
+  transform: skew(30deg);
+  -webkit-transform: skew(30deg);
+  border-left: 2px solid #8ee4af;
+  border-right: 2px solid #8ee4af;
+}
+.about-text {
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  transform: skew(-30deg);
+  -webkit-transform: skew(-30deg);
+  margin-top: 7px;
+  font-size: 1.15rem;
+}
+.projects-button {
+  color: #343336;
+  background-color: #3795ae;
+  transform: skew(-30deg);
+  -webkit-transform: skew(-30deg);
+  border-left: 2px solid #8ee4af;
+  border-right: 2px solid #8ee4af;
+}
+.projects-text {
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  transform: skew(30deg);
+  -webkit-transform: skew(30deg);
+  margin-top: 7px;
+  font-size: 1.15rem;
+}
+
+.contact-button {
+  color: #343336;
+  background-color: #557a95;
+  transform: skew(30deg);
+  -webkit-transform: skew(30deg);
+  border-left: 2px solid #8ee4af;
+  border-right: 2px solid #8ee4af;
+  border-bottom: 2px solid #8ee4af;
+}
+.contact-text {
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  transform: skew(-30deg);
+  -webkit-transform: skew(-30deg);
+  margin-top: 7px;
+  font-size: 1.15rem;
+}
+button:focus,
+.nav-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+}
+#title {
+  width: 100vw;
+  height: 100vw;
+}
+#title-name {
+  margin: auto auto 0 auto;
+  font-family: "Raleway Dots", cursive;
+  font-size: 30vw;
+  text-align: center;
+  color: #8ee4af;
+  transform: translateY(-60px);
+}
+.welcome-sub {
+}
+#title-sub {
+  margin: 0 auto auto auto;
+  font-family: "Poiret One", cursive;
+  font-size: 5vw;
+  text-align: center;
+  color: #5d5c61;
+  transform: translateY(-60px);
+}
+#title-sub:before,
+#title-sub:after {
+  background-color: #5d5c61;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+#title-sub:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+#title-sub:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+hr {
+  margin: 0;
+  padding: 0;
+  border-top: 0;
+  height: 4px;
+  background-color: #8ee4af;
+  z-index: 1;
+  position: sticky;
+  top: 60px;
+}
+#projects {
+  height: 100vh;
+  background-color: #5d5c61;
+}
+.projects-title {
+    font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  color: #8ee4af;
+  text-align: center;
+  padding-top: 1rem;
+  letter-spacing: 2px; 
+}
